@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python_version: ["3.11"]
+        python_version: ["3.12"]
         architecture: [x64, x86]
     runs-on: windows-latest
 
